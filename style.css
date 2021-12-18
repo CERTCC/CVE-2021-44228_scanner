@@ -1,0 +1,155 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background: color #f4f4f4;;
+    direction: rtl;
+
+}
+.container
+{
+    width: 80%;
+    margin:auto ;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    background: #ffd4d4;
+    color: #ffffff;
+    padding-top:  30px;
+    
+    min-height: 5px solid;
+}
+
+header a
+{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+header #brand h1
+{
+    margin: 0;
+    color: #fff7f7;
+}
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #fff8f8;
+    
+    font-weight: bold;
+}
+header a:hover
+{
+    color: #cccccc;
+    font-weight:bold ;
+}
+#showcase
+{
+    min-height: 400px;
+    background: url("../1223/Flowers.jpg")  no-repeat center;
+    background-size:cover ;
+}
+#newsletter
+{
+    padding: 15px;
+    color: #ffd4d4;
+    background: #ffc1c1;
+}
+#newsletter h1
+{
+float: right;
+}
+#newsletter form
+{
+    float: left;
+    margin-top: 15px;
+}
+#newsletter input[type="emil"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#cccccc
+}
+#boxes
+{
+    margin-top: px;
+
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+
+    padding: 10px;
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: aqua;
+    text-align: center;
+    text-align: center;
+    font-weight: bol;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+ header #brand,
+ header nav,
+ header nav li,
+ #newsletter h1,
+ #newsletter form,
+ #boxes .box
+ {
+     float: none;
+     text-align: center;
+     width: 100%;
+ }
+ header
+ {
+     padding-bottom: 20px;
+} 
+#newsletter .button
+{
+    display: block;
+    width: 100%;
+
+}
+#newsletter form input[type="emil"]
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+}
+
+
+
